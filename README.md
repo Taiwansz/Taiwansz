@@ -15,8 +15,6 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/Taiwansz/Taiwansz/output/snake.svg" alt="Snake animation" />
-
 ###
 
 <div align="left">
