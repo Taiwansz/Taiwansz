@@ -1,8 +1,8 @@
-<h3 align="left">Olá, me chamo Matheus.</h3>
+<h1 align="center">Matheus</h1>
 
 ###
 
-<p align="left">Estudante de Ciência da Computação no 4º semestre. Apaixonado por tecnologia e em constante busca por aprendizado e crescimento.</p>
+<p align="center">Estudante de Ciência da Computação no 4º semestre. Apaixonado por tecnologia e em constante busca por aprendizado e crescimento.</p>
 
 ###
 
@@ -13,12 +13,15 @@
 
 ###
 
-<br clear="both">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Taiwansz/Taiwansz/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Taiwansz/Taiwansz/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Taiwansz/Taiwansz/output/pacman-contribution-graph.svg">
+</picture>
 
 ###
 
 <div align="left">
-   
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
@@ -35,9 +38,9 @@
 ###
 
 <div align="left">
- <a href="https://www.instagram.com/taiwan.sz/"> <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-<a href="https://is.gd/Wi48qe"> <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-<a href="https://www.linkedin.com/in/mth3us/"> <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
 </div>
 
 ###
