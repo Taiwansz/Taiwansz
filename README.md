@@ -2,7 +2,7 @@
 
 ###
 
-<p align="center">Estudante de Ciência da Computação no 4º semestre. Apaixonado por tecnologia e em constante busca por aprendizado e crescimento.</p>
+<p align="center">Estudante de Ciência da Computação no 6º semestre. Apaixonado por tecnologia e em constante busca por aprendizado e crescimento.</p>
 
 ###
 
