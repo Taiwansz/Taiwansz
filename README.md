@@ -12,11 +12,13 @@
 
 ###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Taiwansz/Taiwansz/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Taiwansz/Taiwansz/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Taiwansz/Taiwansz/output/pacman-contribution-graph.svg">
-</picture>
+<a href="https://Taiwansz.github.io/Taiwansz/docs/" target="_blank">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Taiwansz/Taiwansz/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Taiwansz/Taiwansz/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Taiwansz/Taiwansz/output/pacman-contribution-graph.svg">
+  </picture>
+</a>
 
 ###
 
