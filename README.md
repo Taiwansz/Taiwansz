@@ -2,6 +2,7 @@
 
 Desenvolvedor focado em Engenharia de IA, orquestração de LLMs e desenvolvimento de soluções inteligentes. Bacharelando em Ciência da Computação (8º semestre) na UniMAX.
 
+* **Portfólio:** [mth3us-portfolio.vercel.app](https://mth3us-portfolio.vercel.app)
 * **Reconhecimento:** 1º lugar no TechDay UniMAX com o projeto **Tharium House**, um jogo integrado com Inteligência Artificial.
 
 ---
@@ -51,6 +52,9 @@ Desenvolvedor focado em Engenharia de IA, orquestração de LLMs e desenvolvimen
 ## Contato
 
 <div align="left">
+  <a href="https://mth3us-portfolio.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfólio-mth3us--portfolio.vercel.app-000000?style=flat-square&logo=vercel&logoColor=white" height="28" alt="Portfólio" />
+  </a>
   <a href="mailto:std.matheus@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-std.matheus%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" height="28" alt="Gmail" />
   </a>
