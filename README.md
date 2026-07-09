@@ -22,6 +22,12 @@ Desenvolvedor focado em Engenharia de IA, orquestração de LLMs e desenvolvimen
   Gerador de criativos publicitários e roteiros estruturados a partir de imagens de produtos, utilizando GPT-4o Vision e Supabase.
   <img src="https://img.shields.io/badge/Next.js%2015-000000?style=flat-square&logo=nextdotjs&logoColor=white" height="20" alt="Next.js 15" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" height="20" alt="Tailwind CSS" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" height="20" alt="Supabase" />
 
+### Desenvolvimento Web & APIs
+
+* **[Feriados do Brasil](https://github.com/Taiwansz/feriados-brasil)**
+  Plataforma web para consolidação de feriados nacionais, estaduais e municipais de todos os 5.570 municípios brasileiros.
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" height="20" alt="HTML5" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" height="20" alt="JavaScript" /> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" height="20" alt="Express" /> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" height="20" alt="Vercel" />
+
 ---
 
 ## Tecnologias e Ferramentas
