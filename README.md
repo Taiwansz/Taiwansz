@@ -1,6 +1,8 @@
 # Matheus (Taiwansz)
 
-Desenvolvedor focado em Engenharia de IA, orquestração de LLMs e desenvolvimento de soluções inteligentes. Estudante de Ciência da Computação (7º semestre).
+Desenvolvedor focado em Engenharia de IA, orquestração de LLMs e desenvolvimento de soluções inteligentes. Bacharelando em Ciência da Computação (8º semestre) na UniMAX.
+
+* **Reconhecimento:** 1º lugar no TechDay UniMAX com o projeto **Tharium House**, um jogo integrado com Inteligência Artificial.
 
 ---
 
