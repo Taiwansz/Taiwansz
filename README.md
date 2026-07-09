@@ -1,6 +1,6 @@
 # Matheus (Taiwansz)
 
-Desenvolvedor focado em Engenharia de IA, orquestração de LLMs e automação de processos (RPA). Estudante de Ciência da Computação (7º semestre).
+Desenvolvedor focado em Engenharia de IA, orquestração de LLMs e desenvolvimento de soluções inteligentes. Estudante de Ciência da Computação (7º semestre).
 
 ---
 
@@ -19,20 +19,6 @@ Desenvolvedor focado em Engenharia de IA, orquestração de LLMs e automação d
 * **[Ad Creative Studio](https://github.com/Taiwansz/ai-prompter-studio)**
   Gerador de criativos publicitários e roteiros estruturados a partir de imagens de produtos, utilizando GPT-4o Vision e Supabase.
   <img src="https://img.shields.io/badge/Next.js%2015-000000?style=flat-square&logo=nextdotjs&logoColor=white" height="20" alt="Next.js 15" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" height="20" alt="Tailwind CSS" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" height="20" alt="Supabase" />
-
-### Automação & Analytics
-
-* **[Agibank AI Adoption Dashboard](https://github.com/Taiwansz/upgraded-winner)**
-  Painel interativo para análise de engajamento, mensagens e consumo de tokens da IA corporativa (PerguntAi).
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" height="20" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" height="20" alt="CSS3" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" height="20" alt="JavaScript" />
-
-* **[Uber Business Automator](https://github.com/Taiwansz/UBER)**
-  RPA para cadastro em lote de vouchers corporativos a partir de planilhas Excel.
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" height="20" alt="Python" /> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" height="20" alt="Selenium" />
-
-* **[Reembo](https://github.com/Taiwansz/reembo)**
-  Reimplementação e consolidação de rotinas financeiras de reembolso originalmente estruturadas em macros Excel.
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" height="20" alt="Streamlit" /> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" height="20" alt="Pandas" />
 
 ---
 
