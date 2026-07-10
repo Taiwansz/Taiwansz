@@ -30,6 +30,10 @@ Desenvolvedor focado em Engenharia de IA, orquestração de LLMs e desenvolvimen
 
 #### Desenvolvimento Web & APIs
 
+* **[Thallium](https://github.com/Taiwansz/Thallium)**
+  Core bancário digital premium e livro-razão (ledger) de dupla entrada com liquidação Pix instantânea, cartões dinâmicos 3D e yield diário de investimentos.
+  <img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white" height="20" alt="Next.js 16" /> <img src="https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" height="20" alt="Tailwind CSS" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" height="20" alt="Supabase" /> <img src="https://img.shields.io/badge/Framer_Motion-F024B6?style=flat-square&logo=framermotion&logoColor=white" height="20" alt="Framer Motion" />
+
 * **[Feriados do Brasil](https://github.com/Taiwansz/feriados-brasil)**
   Plataforma web para consolidação de feriados nacionais, estaduais e municipais de todos os 5.570 municípios brasileiros.
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" height="20" alt="HTML5" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" height="20" alt="JavaScript" /> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" height="20" alt="Express" /> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" height="20" alt="Vercel" />
@@ -94,6 +98,10 @@ Developer focused on AI Engineering, LLM orchestration, and intelligent solution
   <img src="https://img.shields.io/badge/Next.js%2015-000000?style=flat-square&logo=nextdotjs&logoColor=white" height="20" alt="Next.js 15" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" height="20" alt="Tailwind CSS" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" height="20" alt="Supabase" />
 
 #### Web Development & APIs
+
+* **[Thallium](https://github.com/Taiwansz/Thallium)**
+  A premium digital banking core and double-entry ledger featuring instant Pix settlement, dynamic 3D cards, and daily investment yields.
+  <img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white" height="20" alt="Next.js 16" /> <img src="https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" height="20" alt="Tailwind CSS" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" height="20" alt="Supabase" /> <img src="https://img.shields.io/badge/Framer_Motion-F024B6?style=flat-square&logo=framermotion&logoColor=white" height="20" alt="Framer Motion" />
 
 * **[Feriados do Brasil](https://github.com/Taiwansz/feriados-brasil)**
   API and web platform that resolves federal, state, and municipal holidays for all 5,570 Brazilian cities.
