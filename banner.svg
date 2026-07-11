@@ -2,11 +2,11 @@
   <style>
     @keyframes float-1 {
       0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-6px); }
+      50% { transform: translateY(-5px); }
     }
     @keyframes float-2 {
       0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-6px); }
+      50% { transform: translateY(-5px); }
     }
     .r1 {
       animation: float-1 3s ease-in-out infinite;
@@ -31,86 +31,90 @@
 
   <!-- Row 1: T A I W A N S Z (8 blocks, 50x50, gap 2px) -->
   <!-- Start X: (800 - 414) / 2 = 193 -->
-  <g class="r1" transform="translate(193, 50)">
-    <!-- T -->
-    <g transform="translate(0, 0)">
-      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
-      <text x="25" y="25" class="block-text" fill="#F5F2EB">T</text>
-    </g>
-    <!-- A -->
-    <g transform="translate(52, 0)">
-      <rect width="50" height="50" fill="#F5F2EB" />
-      <text x="25" y="25" class="block-text" fill="#090909">A</text>
-    </g>
-    <!-- I -->
-    <g transform="translate(104, 0)">
-      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
-      <text x="25" y="25" class="block-text" fill="#F5F2EB">I</text>
-    </g>
-    <!-- W -->
-    <g transform="translate(156, 0)">
-      <rect width="50" height="50" fill="#F5F2EB" />
-      <text x="25" y="25" class="block-text" fill="#090909">W</text>
-    </g>
-    <!-- A -->
-    <g transform="translate(208, 0)">
-      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
-      <text x="25" y="25" class="block-text" fill="#F5F2EB">A</text>
-    </g>
-    <!-- N -->
-    <g transform="translate(260, 0)">
-      <rect width="50" height="50" fill="#F5F2EB" />
-      <text x="25" y="25" class="block-text" fill="#090909">N</text>
-    </g>
-    <!-- S -->
-    <g transform="translate(312, 0)">
-      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
-      <text x="25" y="25" class="block-text" fill="#D4AF6A">S</text>
-    </g>
-    <!-- Z -->
-    <g transform="translate(364, 0)">
-      <rect width="50" height="50" fill="#D4AF6A" />
-      <text x="25" y="25" class="block-text" fill="#090909">Z</text>
+  <g transform="translate(193, 50)">
+    <g class="r1">
+      <!-- T -->
+      <g transform="translate(0, 0)">
+        <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+        <text x="25" y="25" class="block-text" fill="#F5F2EB">T</text>
+      </g>
+      <!-- A -->
+      <g transform="translate(52, 0)">
+        <rect width="50" height="50" fill="#F5F2EB" />
+        <text x="25" y="25" class="block-text" fill="#090909">A</text>
+      </g>
+      <!-- I -->
+      <g transform="translate(104, 0)">
+        <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+        <text x="25" y="25" class="block-text" fill="#F5F2EB">I</text>
+      </g>
+      <!-- W -->
+      <g transform="translate(156, 0)">
+        <rect width="50" height="50" fill="#F5F2EB" />
+        <text x="25" y="25" class="block-text" fill="#090909">W</text>
+      </g>
+      <!-- A -->
+      <g transform="translate(208, 0)">
+        <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+        <text x="25" y="25" class="block-text" fill="#F5F2EB">A</text>
+      </g>
+      <!-- N -->
+      <g transform="translate(260, 0)">
+        <rect width="50" height="50" fill="#F5F2EB" />
+        <text x="25" y="25" class="block-text" fill="#090909">N</text>
+      </g>
+      <!-- S -->
+      <g transform="translate(312, 0)">
+        <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+        <text x="25" y="25" class="block-text" fill="#D4AF6A">S</text>
+      </g>
+      <!-- Z -->
+      <g transform="translate(364, 0)">
+        <rect width="50" height="50" fill="#D4AF6A" />
+        <text x="25" y="25" class="block-text" fill="#090909">Z</text>
+      </g>
     </g>
   </g>
 
   <!-- Row 2: M A T H E U S (7 blocks, 50x50, gap 2px) -->
   <!-- Start X: (800 - 362) / 2 = 219 -->
-  <g class="r2" transform="translate(219, 108)">
-    <!-- M -->
-    <g transform="translate(0, 0)">
-      <rect width="50" height="50" fill="#F5F2EB" />
-      <text x="25" y="25" class="block-text" fill="#090909">M</text>
-    </g>
-    <!-- A -->
-    <g transform="translate(52, 0)">
-      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
-      <text x="25" y="25" class="block-text" fill="#F5F2EB">A</text>
-    </g>
-    <!-- T -->
-    <g transform="translate(104, 0)">
-      <rect width="50" height="50" fill="#F5F2EB" />
-      <text x="25" y="25" class="block-text" fill="#090909">T</text>
-    </g>
-    <!-- H -->
-    <g transform="translate(156, 0)">
-      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
-      <text x="25" y="25" class="block-text" fill="#F5F2EB">H</text>
-    </g>
-    <!-- E -->
-    <g transform="translate(208, 0)">
-      <rect width="50" height="50" fill="#F5F2EB" />
-      <text x="25" y="25" class="block-text" fill="#090909">E</text>
-    </g>
-    <!-- U -->
-    <g transform="translate(260, 0)">
-      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
-      <text x="25" y="25" class="block-text" fill="#F5F2EB">U</text>
-    </g>
-    <!-- S -->
-    <g transform="translate(312, 0)">
-      <rect width="50" height="50" fill="#D4AF6A" />
-      <text x="25" y="25" class="block-text" fill="#090909">S</text>
+  <g transform="translate(219, 108)">
+    <g class="r2">
+      <!-- M -->
+      <g transform="translate(0, 0)">
+        <rect width="50" height="50" fill="#F5F2EB" />
+        <text x="25" y="25" class="block-text" fill="#090909">M</text>
+      </g>
+      <!-- A -->
+      <g transform="translate(52, 0)">
+        <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+        <text x="25" y="25" class="block-text" fill="#F5F2EB">A</text>
+      </g>
+      <!-- T -->
+      <g transform="translate(104, 0)">
+        <rect width="50" height="50" fill="#F5F2EB" />
+        <text x="25" y="25" class="block-text" fill="#090909">T</text>
+      </g>
+      <!-- H -->
+      <g transform="translate(156, 0)">
+        <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+        <text x="25" y="25" class="block-text" fill="#F5F2EB">H</text>
+      </g>
+      <!-- E -->
+      <g transform="translate(208, 0)">
+        <rect width="50" height="50" fill="#F5F2EB" />
+        <text x="25" y="25" class="block-text" fill="#090909">E</text>
+      </g>
+      <!-- U -->
+      <g transform="translate(260, 0)">
+        <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+        <text x="25" y="25" class="block-text" fill="#F5F2EB">U</text>
+      </g>
+      <!-- S -->
+      <g transform="translate(312, 0)">
+        <rect width="50" height="50" fill="#D4AF6A" />
+        <text x="25" y="25" class="block-text" fill="#090909">S</text>
+      </g>
     </g>
   </g>
   
