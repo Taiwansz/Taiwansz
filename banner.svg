@@ -1,104 +1,129 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%">
   <style>
-    @keyframes bounce {
+    @keyframes float-1 {
       0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-12px); }
+      50% { transform: translateY(-6px); }
     }
-    @keyframes float-orb-1 {
-      0%, 100% { transform: translate(0, 0); }
-      50% { transform: translate(20px, -15px); }
+    @keyframes float-2 {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
     }
-    @keyframes float-orb-2 {
-      0%, 100% { transform: translate(0, 0); }
-      50% { transform: translate(-15px, 20px); }
+    .r1 {
+      animation: float-1 3s ease-in-out infinite;
     }
-    .let-1 { animation: bounce 2s infinite ease-in-out 0.0s; }
-    .let-2 { animation: bounce 2s infinite ease-in-out 0.15s; }
-    .let-3 { animation: bounce 2s infinite ease-in-out 0.3s; }
-    .let-4 { animation: bounce 2s infinite ease-in-out 0.45s; }
-    .let-5 { animation: bounce 2s infinite ease-in-out 0.6s; }
-    .let-6 { animation: bounce 2s infinite ease-in-out 0.75s; }
-    .let-7 { animation: bounce 2s infinite ease-in-out 0.9s; }
-    .let-8 { animation: bounce 2s infinite ease-in-out 1.05s; }
-    
-    .orb-1 { transform-origin: center; animation: float-orb-1 8s ease-in-out infinite; }
-    .orb-2 { transform-origin: center; animation: float-orb-2 10s ease-in-out infinite; }
+    .r2 {
+      animation: float-2 3s ease-in-out infinite 0.4s;
+    }
+    .block-text {
+      font-family: 'Arial Black', 'Impact', 'Trebuchet MS', system-ui, sans-serif;
+      font-weight: 900;
+      font-size: 34px;
+      text-anchor: middle;
+      dominant-baseline: central;
+    }
   </style>
 
   <!-- Background -->
   <rect width="100%" height="100%" fill="#090909" />
   
-  <!-- Subtle Playful Polka Dot Pattern -->
+  <!-- Playful Checkerboard Grid Background Pattern -->
   <rect width="100%" height="100%" fill="url(#dot-pattern)" opacity="0.3" />
-  
-  <!-- Glowing Background Orbs -->
-  <circle class="orb-1" cx="600" cy="120" r="100" fill="#D4AF6A" opacity="0.05" filter="url(#blur-effect)" />
-  <circle class="orb-2" cx="200" cy="120" r="80" fill="#B8BDC7" opacity="0.03" filter="url(#blur-effect)" />
 
-  <!-- Playful Typographic Name - TAIWANSZ -->
-  <!-- Center: x = 147.5 to 652.5 -->
-  <g transform="translate(0, 10)">
-    
+  <!-- Row 1: T A I W A N S Z (8 blocks, 50x50, gap 2px) -->
+  <!-- Start X: (800 - 414) / 2 = 193 -->
+  <g class="r1" transform="translate(193, 50)">
     <!-- T -->
-    <g class="let-1">
-      <rect x="150" y="80" width="50" height="14" rx="7" fill="#D4AF6A" stroke="#090909" stroke-width="3.5" />
-      <rect x="168" y="90" width="14" height="55" rx="7" fill="#B8BDC7" stroke="#090909" stroke-width="3.5" />
+    <g transform="translate(0, 0)">
+      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+      <text x="25" y="25" class="block-text" fill="#F5F2EB">T</text>
     </g>
-
     <!-- A -->
-    <g class="let-2">
-      <path d="M 215,145 L 240,80 L 265,145 Z" fill="#D4AF6A" stroke="#090909" stroke-width="3.5" stroke-linejoin="round" />
-      <circle cx="240" cy="120" r="6" fill="#090909" />
+    <g transform="translate(52, 0)">
+      <rect width="50" height="50" fill="#F5F2EB" />
+      <text x="25" y="25" class="block-text" fill="#090909">A</text>
     </g>
-
     <!-- I -->
-    <g class="let-3">
-      <rect x="293" y="95" width="14" height="50" rx="7" fill="#B8BDC7" stroke="#090909" stroke-width="3.5" />
-      <circle cx="300" cy="82" r="7.5" fill="#D4AF6A" stroke="#090909" stroke-width="2" />
+    <g transform="translate(104, 0)">
+      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+      <text x="25" y="25" class="block-text" fill="#F5F2EB">I</text>
     </g>
-
     <!-- W -->
-    <g class="let-4">
-      <path d="M 345,80 L 358,145 L 370,105 L 382,145 L 395,80" fill="none" stroke="#D4AF6A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M 345,80 L 358,145 L 370,105 L 382,145 L 395,80" fill="none" stroke="#B8BDC7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(156, 0)">
+      <rect width="50" height="50" fill="#F5F2EB" />
+      <text x="25" y="25" class="block-text" fill="#090909">W</text>
     </g>
-
     <!-- A -->
-    <g class="let-5">
-      <path d="M 410,145 L 435,80 L 460,145 Z" fill="#B8BDC7" stroke="#090909" stroke-width="3.5" stroke-linejoin="round" />
-      <circle cx="435" cy="120" r="6" fill="#090909" />
+    <g transform="translate(208, 0)">
+      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+      <text x="25" y="25" class="block-text" fill="#F5F2EB">A</text>
     </g>
-
     <!-- N -->
-    <g class="let-6">
-      <path d="M 475,145 L 475,80 L 515,145 L 515,80" fill="none" stroke="#D4AF6A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M 475,145 L 475,80 L 515,145 L 515,80" fill="none" stroke="#B8BDC7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(260, 0)">
+      <rect width="50" height="50" fill="#F5F2EB" />
+      <text x="25" y="25" class="block-text" fill="#090909">N</text>
     </g>
-
     <!-- S -->
-    <g class="let-7">
-      <path d="M 580,92 C 580,78 545,78 545,95 C 545,115 580,110 580,130 C 580,147 545,147 545,133" fill="none" stroke="#D4AF6A" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(312, 0)">
+      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+      <text x="25" y="25" class="block-text" fill="#D4AF6A">S</text>
     </g>
-
     <!-- Z -->
-    <g class="let-8">
-      <path d="M 610,87 L 650,87 L 610,138 L 650,138" fill="none" stroke="#B8BDC7" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(364, 0)">
+      <rect width="50" height="50" fill="#D4AF6A" />
+      <text x="25" y="25" class="block-text" fill="#090909">Z</text>
+    </g>
+  </g>
+
+  <!-- Row 2: M A T H E U S (7 blocks, 50x50, gap 2px) -->
+  <!-- Start X: (800 - 362) / 2 = 219 -->
+  <g class="r2" transform="translate(219, 108)">
+    <!-- M -->
+    <g transform="translate(0, 0)">
+      <rect width="50" height="50" fill="#F5F2EB" />
+      <text x="25" y="25" class="block-text" fill="#090909">M</text>
+    </g>
+    <!-- A -->
+    <g transform="translate(52, 0)">
+      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+      <text x="25" y="25" class="block-text" fill="#F5F2EB">A</text>
+    </g>
+    <!-- T -->
+    <g transform="translate(104, 0)">
+      <rect width="50" height="50" fill="#F5F2EB" />
+      <text x="25" y="25" class="block-text" fill="#090909">T</text>
+    </g>
+    <!-- H -->
+    <g transform="translate(156, 0)">
+      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+      <text x="25" y="25" class="block-text" fill="#F5F2EB">H</text>
+    </g>
+    <!-- E -->
+    <g transform="translate(208, 0)">
+      <rect width="50" height="50" fill="#F5F2EB" />
+      <text x="25" y="25" class="block-text" fill="#090909">E</text>
+    </g>
+    <!-- U -->
+    <g transform="translate(260, 0)">
+      <rect width="50" height="50" fill="#16161a" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+      <text x="25" y="25" class="block-text" fill="#F5F2EB">U</text>
+    </g>
+    <!-- S -->
+    <g transform="translate(312, 0)">
+      <rect width="50" height="50" fill="#D4AF6A" />
+      <text x="25" y="25" class="block-text" fill="#090909">S</text>
     </g>
   </g>
   
   <!-- Subtitle -->
-  <text x="400" y="195" font-family="Manrope, system-ui, -apple-system, sans-serif" font-size="11" font-weight="800" letter-spacing="6" fill="#B8BDC7" opacity="0.8" text-anchor="middle">
-    AI ENGINEER &amp; FULL-STACK DEVELOPER
+  <text x="400" y="195" font-family="'Trebuchet MS', system-ui, sans-serif" font-size="11" font-weight="800" letter-spacing="5" fill="#B8BDC7" opacity="0.6" text-anchor="middle">
+    AI ENGINEERING // FULL-STACK DEVELOPMENT
   </text>
 
   <!-- Definitions -->
   <defs>
-    <!-- Playful Polka Dot Pattern -->
-    <pattern id="dot-pattern" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="1" fill="rgba(255,255,255,0.03)" />
+    <!-- Grid Dot pattern -->
+    <pattern id="dot-pattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1.2" fill="rgba(255,255,255,0.04)" />
     </pattern>
-    <filter id="blur-effect">
-      <feGaussianBlur stdDeviation="35" />
-    </filter>
   </defs>
 </svg>
