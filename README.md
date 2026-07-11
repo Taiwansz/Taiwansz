@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Sora&size=22&duration=3500&pause=1000&color=D4AF6A&background=00000000&center=true&vCenter=true&width=600&lines=AI+Engineering;LLM+Orchestration;Full-Stack+Development" alt="Matheus - AI Developer" />
+<img src="./banner.svg" width="100%" alt="Taiwansz - AI Developer" />
 </div>
 
 ---
@@ -11,28 +11,26 @@
 <p>Desenvolvedor focado em Engenharia de IA, orquestração de LLMs e desenvolvimento de aplicações inteligentes. Bacharelando em Ciência da Computação (8º semestre) na UniMAX.</p>
 <p>Reconhecimento: 1º lugar no TechDay UniMAX com o projeto Tharium House, um jogo integrado com Inteligência Artificial.</p>
 <h3>Projetos em Destaque</h3>
-<ul>
-<li>
-<strong><a href="https://github.com/Taiwansz/Thallium">Thallium</a></strong><br/>
-Core bancário premium e livro-razão (ledger) de dupla entrada com liquidação Pix e cartões 3D.<br/>
+<p><strong><a href="https://github.com/Taiwansz/Thallium">Thallium</a></strong></p>
+<blockquote>
+Core bancário premium e ledger de dupla entrada com liquidação Pix e cartões 3D.<br/>
 <code>Next.js 16</code> <code>Tailwind v4</code> <code>Supabase</code>
-</li>
-<li>
-<strong><a href="https://github.com/Taiwansz/atlas">Atlas OS</a></strong><br/>
+</blockquote>
+<p><strong><a href="https://github.com/Taiwansz/atlas">Atlas OS</a></strong></p>
+<blockquote>
 Orquestrador de agentes autônomos com memória persistente e arquitetura modular.<br/>
 <code>TypeScript</code> <code>Node.js</code>
-</li>
-<li>
-<strong><a href="https://github.com/Taiwansz/TokLang">TokLang</a></strong><br/>
+</blockquote>
+<p><strong><a href="https://github.com/Taiwansz/TokLang">TokLang</a></strong></p>
+<blockquote>
 Middleware de compressão de prompts com redução de até 85% no uso de tokens.<br/>
 <code>JavaScript</code> <code>Vercel</code>
-</li>
-<li>
-<strong><a href="https://github.com/Taiwansz/ai-prompter-studio">Ad Creative</a></strong><br/>
+</blockquote>
+<p><strong><a href="https://github.com/Taiwansz/ai-prompter-studio">Ad Creative</a></strong></p>
+<blockquote>
 Geração de criativos e roteiros estruturados usando GPT-4o Vision.<br/>
 <code>Next.js 15</code> <code>Supabase</code>
-</li>
-</ul>
+</blockquote>
 <h3>Arsenal Técnico</h3>
 <ul>
 <li><strong>Linguagens:</strong> TypeScript, JavaScript, Python, SQL</li>
@@ -52,28 +50,26 @@ Geração de criativos e roteiros estruturados usando GPT-4o Vision.<br/>
 <p>Developer focused on AI Engineering, LLM orchestration, and intelligent solutions. Computer Science student (8th semester) at UniMAX.</p>
 <p>Recognition: 1st place at TechDay UniMAX with the project Tharium House, an AI-integrated game.</p>
 <h3>Highlighted Projects</h3>
-<ul>
-<li>
-<strong><a href="https://github.com/Taiwansz/Thallium">Thallium</a></strong><br/>
+<p><strong><a href="https://github.com/Taiwansz/Thallium">Thallium</a></strong></p>
+<blockquote>
 Premium banking core and double-entry ledger featuring Pix settlement and 3D cards.<br/>
 <code>Next.js 16</code> <code>Tailwind v4</code> <code>Supabase</code>
-</li>
-<li>
-<strong><a href="https://github.com/Taiwansz/atlas">Atlas OS</a></strong><br/>
+</blockquote>
+<p><strong><a href="https://github.com/Taiwansz/atlas">Atlas OS</a></strong></p>
+<blockquote>
 Multi-agent orchestration operating system with persistent memory.<br/>
 <code>TypeScript</code> <code>Node.js</code>
-</li>
-<li>
-<strong><a href="https://github.com/Taiwansz/TokLang">TokLang</a></strong><br/>
+</blockquote>
+<p><strong><a href="https://github.com/Taiwansz/TokLang">TokLang</a></strong></p>
+<blockquote>
 Prompt compression middleware designed to reduce token usage by up to 85%.<br/>
 <code>JavaScript</code> <code>Vercel</code>
-</li>
-<li>
-<strong><a href="https://github.com/Taiwansz/ai-prompter-studio">Ad Creative</a></strong><br/>
+</blockquote>
+<p><strong><a href="https://github.com/Taiwansz/ai-prompter-studio">Ad Creative</a></strong></p>
+<blockquote>
 Ad copywriting and asset generation studio powered by GPT-4o Vision.<br/>
 <code>Next.js 15</code> <code>Supabase</code>
-</li>
-</ul>
+</blockquote>
 <h3>Technical Stack</h3>
 <ul>
 <li><strong>Languages:</strong> TypeScript, JavaScript, Python, SQL</li>

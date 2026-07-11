@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#090909" />
+  
+  <!-- Subtle Grid Layout Lines -->
+  <line x1="0" y1="120" x2="800" y2="120" stroke="rgba(255,255,255,0.02)" stroke-width="1" />
+  <line x1="400" y1="0" x2="400" y2="240" stroke="rgba(255,255,255,0.02)" stroke-width="1" />
+  
+  <!-- Glowing Background Orbs -->
+  <circle cx="680" cy="120" r="100" fill="#D4AF6A" opacity="0.05" filter="url(#blur-effect)" />
+  <circle cx="120" cy="120" r="80" fill="#B8BDC7" opacity="0.03" filter="url(#blur-effect)" />
+
+  <!-- Left Side Text (Sora & Manrope display) -->
+  <text x="60" y="115" font-family="Sora, system-ui, -apple-system, sans-serif" font-size="34" font-weight="900" letter-spacing="8" fill="#F5F2EB">
+    TAIWAN
+    <tspan fill="#D4AF6A">SZ</tspan>
+  </text>
+  <text x="60" y="145" font-family="Manrope, system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="4" fill="#B8BDC7" opacity="0.7">
+    AI ENGINEERING &amp; SYSTEMS ARCHITECT
+  </text>
+  
+  <!-- Right Side Orbits (Thallium Tl-81) -->
+  <g transform="translate(640, 120)">
+    <!-- Central Nucleus -->
+    <circle cx="0" cy="0" r="22" fill="url(#goldGradient)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+    <text x="0" y="5" font-family="Sora, system-ui, sans-serif" font-size="14" font-weight="bold" fill="#090909" text-anchor="middle">Tl</text>
+    
+    <!-- Orbit 1 -->
+    <ellipse cx="0" cy="0" rx="50" ry="22" fill="none" stroke="rgba(212,175,106,0.3)" stroke-width="1" transform="rotate(-30)" />
+    <circle cx="43" cy="-21" r="3.5" fill="#D4AF6A" />
+
+    <!-- Orbit 2 -->
+    <ellipse cx="0" cy="0" rx="72" ry="32" fill="none" stroke="rgba(184,189,199,0.2)" stroke-width="1" transform="rotate(35)" />
+    <circle cx="-59" cy="33" r="3" fill="#B8BDC7" />
+    
+    <!-- Orbit 3 -->
+    <ellipse cx="0" cy="0" rx="92" ry="42" fill="none" stroke="rgba(212,175,106,0.15)" stroke-width="1" transform="rotate(110)" />
+    <circle cx="0" cy="-92" r="2.5" fill="#D4AF6A" />
+  </g>
+  
+  <!-- Definitions -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF6A" />
+      <stop offset="100%" stop-color="#B8893C" />
+    </linearGradient>
+    <filter id="blur-effect">
+      <feGaussianBlur stdDeviation="30" />
+    </filter>
+  </defs>
+</svg>
