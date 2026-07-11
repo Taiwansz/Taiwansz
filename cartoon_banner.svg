@@ -8,11 +8,34 @@
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-5px); }
     }
+    @keyframes node-pulse {
+      0%, 100% { transform: scale(1); filter: drop-shadow(0 0 4px rgba(212,175,106,0.5)); }
+      50% { transform: scale(1.2); filter: drop-shadow(0 0 12px rgba(212,175,106,0.8)); }
+    }
+    @keyframes flow-signal {
+      to { stroke-dashoffset: -20; }
+    }
     .r1 {
       animation: float-1 3s ease-in-out infinite;
     }
     .r2 {
       animation: float-2 3s ease-in-out infinite 0.4s;
+    }
+    .ai-node-1 {
+      transform-origin: 0px 0px;
+      animation: node-pulse 2s ease-in-out infinite;
+    }
+    .ai-node-2 {
+      transform-origin: 0px 0px;
+      animation: node-pulse 2s ease-in-out infinite 0.5s;
+    }
+    .synapse-flow-gold {
+      stroke-dasharray: 6, 8;
+      animation: flow-signal 1.8s linear infinite;
+    }
+    .synapse-flow-silver {
+      stroke-dasharray: 6, 8;
+      animation: flow-signal 2.4s linear infinite;
     }
     .block-text {
       font-family: 'Arial Black', 'Impact', 'Trebuchet MS', system-ui, sans-serif;
@@ -28,6 +51,62 @@
   
   <!-- Playful Checkerboard Grid Background Pattern -->
   <rect width="100%" height="100%" fill="url(#dot-pattern)" opacity="0.3" />
+
+  <!-- AI Synapse Network (Around the blocks) -->
+  <!-- Left Side Connections -->
+  <g opacity="0.8">
+    <path d="M 80,60 L 130,85 L 193,75" fill="none" stroke="rgba(212,175,106,0.25)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path class="synapse-flow-gold" d="M 80,60 L 130,85 L 193,75" fill="none" stroke="#D4AF6A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <path d="M 100,165 L 150,140 L 219,133" fill="none" stroke="rgba(184,189,199,0.2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path class="synapse-flow-silver" d="M 100,165 L 150,140 L 219,133" fill="none" stroke="#B8BDC7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <line x1="80" y1="60" x2="100" y2="165" stroke="rgba(255,255,255,0.05)" stroke-width="2" stroke-dasharray="4,4" />
+  </g>
+
+  <!-- Right Side Connections -->
+  <g opacity="0.8">
+    <path d="M 720,60 L 670,85 L 607,75" fill="none" stroke="rgba(184,189,199,0.2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path class="synapse-flow-silver" d="M 720,60 L 670,85 L 607,75" fill="none" stroke="#B8BDC7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <path d="M 700,165 L 650,140 L 581,133" fill="none" stroke="rgba(212,175,106,0.25)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path class="synapse-flow-gold" d="M 700,165 L 650,140 L 581,133" fill="none" stroke="#D4AF6A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <line x1="720" y1="60" x2="700" y2="165" stroke="rgba(255,255,255,0.05)" stroke-width="2" stroke-dasharray="4,4" />
+  </g>
+
+  <!-- Pulsing AI Nodes (Neurons) -->
+  <!-- Node 1: Left Top -->
+  <g transform="translate(80, 60)">
+    <g class="ai-node-1">
+      <circle cx="0" cy="0" r="10" fill="#D4AF6A" stroke="#090909" stroke-width="2" />
+      <circle cx="0" cy="0" r="4" fill="#090909" />
+    </g>
+  </g>
+  
+  <!-- Node 2: Left Bottom -->
+  <g transform="translate(100, 165)">
+    <g class="ai-node-2">
+      <circle cx="0" cy="0" r="8" fill="#B8BDC7" stroke="#090909" stroke-width="2" />
+      <circle cx="0" cy="0" r="3" fill="#090909" />
+    </g>
+  </g>
+
+  <!-- Node 3: Right Top -->
+  <g transform="translate(720, 60)">
+    <g class="ai-node-2">
+      <circle cx="0" cy="0" r="8" fill="#B8BDC7" stroke="#090909" stroke-width="2" />
+      <circle cx="0" cy="0" r="3" fill="#090909" />
+    </g>
+  </g>
+  
+  <!-- Node 4: Right Bottom -->
+  <g transform="translate(700, 165)">
+    <g class="ai-node-1">
+      <circle cx="0" cy="0" r="10" fill="#D4AF6A" stroke="#090909" stroke-width="2" />
+      <circle cx="0" cy="0" r="4" fill="#090909" />
+    </g>
+  </g>
 
   <!-- Row 1: T A I W A N S Z (8 blocks, 50x50, gap 2px) -->
   <!-- Start X: (800 - 414) / 2 = 193 -->
