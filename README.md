@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./banner.svg" width="100%" alt="Taiwansz - AI Developer" />
+<img src="./banner.svg?v=3" width="100%" alt="Taiwansz - AI Developer" />
 </div>
 
 ---
