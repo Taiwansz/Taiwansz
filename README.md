@@ -92,8 +92,8 @@ Ad copywriting and asset generation studio powered by GPT-4o Vision.<br/>
 <div align="center">
 <h3>GitHub Activity & Analytics</h3>
 <br />
-<img src="./stats.svg" height="150" alt="GitHub Stats" />
-<img src="./top_langs.svg" height="150" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=Taiwansz&show_icons=true&theme=transparent&bg_color=090909&title_color=D4AF6A&icon_color=B8BDC7&text_color=F5F2EB&border_color=121212&hide_border=true&count_private=true" height="150" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Taiwansz&layout=compact&langs_count=6&theme=transparent&bg_color=090909&title_color=D4AF6A&icon_color=B8BDC7&text_color=F5F2EB&border_color=121212&hide_border=true" height="150" alt="Top Languages" />
 </div>
 
 <br />
