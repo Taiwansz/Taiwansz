@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Matheus Sousa dos Santos (Taiwansz)" />
+  <img src="./assets/profile-banner.svg?v=2" width="100%" alt="Matheus Sousa dos Santos (Taiwansz)" />
 </div>
 
 <div align="center">
