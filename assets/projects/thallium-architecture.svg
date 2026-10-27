@@ -1,63 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="100%" height="180" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 90" width="100%" height="90" fill="none">
   <defs>
     <style>
-      .arch-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 13px; fill: #F5F1E8; }
-      .arch-sub { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; fill: #8E929E; letter-spacing: 0.5px; }
-      .arch-flow { stroke: #D8B46A; stroke-width: 1.5; stroke-dasharray: 4 4; }
-      .box-bg { fill: #14161A; stroke: #292B30; stroke-width: 1.2; rx: 6px; }
-      .box-active { fill: #181B22; stroke: #D8B46A; stroke-width: 1.5; rx: 6px; }
+      .node-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; font-size: 11px; fill: #F5F1E8; letter-spacing: 0.5px; }
+      .node-sub { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 9px; fill: #8E929E; }
+      .core-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 11px; fill: #D8B46A; letter-spacing: 0.5px; }
+      .core-sub { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 9px; fill: #D8B46A; opacity: 0.85; }
+      .flow-line { stroke: #262933; stroke-width: 1; }
     </style>
-    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#D8B46A" />
-    </marker>
   </defs>
 
-  <!-- Background -->
-  <rect width="800" height="180" rx="6" fill="#101114" stroke="#22252C" stroke-width="1" />
+  <!-- Canvas -->
+  <rect width="800" height="90" rx="6" fill="#0D0E12" />
+  <rect x="0.5" y="0.5" width="799" height="89" rx="5.5" fill="none" stroke="#1D2027" stroke-width="1" />
 
-  <!-- Stage 1: Client Application -->
-  <rect x="25" y="35" width="160" height="110" class="box-bg" />
-  <rect x="37" y="50" width="136" height="4" rx="2" fill="#D8B46A" />
-  <text x="37" y="74" class="arch-title">CLIENT RUNTIME</text>
-  <text x="37" y="92" class="arch-sub">Next.js 16 (App Router)</text>
-  <text x="37" y="108" class="arch-sub">Tailwind CSS v4 · React 19</text>
-  <text x="37" y="124" class="arch-sub">3D Cards &amp; Pix Interface</text>
+  <!-- Connecting Backbone Line -->
+  <line x1="60" y1="45" x2="740" y2="45" class="flow-line" />
 
-  <!-- Flow 1 -> 2 -->
-  <line x1="185" y1="90" x2="230" y2="90" class="arch-flow" marker-end="url(#arrow)" />
+  <!-- Node 1: Client -->
+  <g transform="translate(60, 24)">
+    <rect width="135" height="42" rx="4" fill="#12141A" stroke="#22252C" stroke-width="1" />
+    <text x="14" y="19" class="node-title">CLIENT RUNTIME</text>
+    <text x="14" y="32" class="node-sub">Next.js 16 &#183; React 19</text>
+  </g>
 
-  <!-- Stage 2: Security & RLS Gateway -->
-  <rect x="235" y="35" width="150" height="110" class="box-bg" />
-  <rect x="247" y="50" width="126" height="4" rx="2" fill="#8E929E" />
-  <text x="247" y="74" class="arch-title">AUTH &amp; SECURITY</text>
-  <text x="247" y="92" class="arch-sub">Supabase Session Auth</text>
-  <text x="247" y="108" class="arch-sub">Row-Level Security (RLS)</text>
-  <text x="247" y="124" class="arch-sub">JWT auth.uid Verification</text>
+  <!-- Node 2: Security -->
+  <g transform="translate(245, 24)">
+    <rect width="135" height="42" rx="4" fill="#12141A" stroke="#22252C" stroke-width="1" />
+    <text x="14" y="19" class="node-title">AUTH &amp; RLS GATE</text>
+    <text x="14" y="32" class="node-sub">Supabase Session</text>
+  </g>
 
-  <!-- Flow 2 -> 3 -->
-  <line x1="385" y1="90" x2="430" y2="90" class="arch-flow" marker-end="url(#arrow)" />
+  <!-- Node 3: RPC Core (Accent) -->
+  <g transform="translate(430, 24)">
+    <rect width="145" height="42" rx="4" fill="#161820" stroke="#D8B46A" stroke-width="1" />
+    <text x="14" y="19" class="core-title">ATOMIC RPC ENGINE</text>
+    <text x="14" y="32" class="core-sub">PostgreSQL (S &#8805; 0)</text>
+  </g>
 
-  <!-- Stage 3: Atomic Database RPC Core -->
-  <rect x="435" y="35" width="170" height="110" class="box-active" />
-  <rect x="447" y="50" width="146" height="4" rx="2" fill="#D8B46A" />
-  <text x="447" y="74" class="arch-title">ATOMIC RPC ENGINE</text>
-  <text x="447" y="92" class="arch-sub">PostgreSQL Stored Logic</text>
-  <text x="447" y="108" class="arch-sub">Zero-Balance Guard (S ≥ 0)</text>
-  <text x="447" y="124" class="arch-sub">Race Condition Prevention</text>
-
-  <!-- Flow 3 -> 4 -->
-  <line x1="605" y1="90" x2="640" y2="90" class="arch-flow" marker-end="url(#arrow)" />
-
-  <!-- Stage 4: Double-Entry Ledger & Audit -->
-  <rect x="645" y="35" width="130" height="110" class="box-bg" />
-  <rect x="657" y="50" width="106" height="4" rx="2" fill="#8E929E" />
-  <text x="657" y="74" class="arch-title">IMMUTABLE</text>
-  <text x="657" y="92" class="arch-sub">Double-Entry Ledger</text>
-  <text x="657" y="108" class="arch-sub">Signed Transactions</text>
-  <text x="657" y="124" class="arch-sub">Synchronous Audit Log</text>
-
-  <!-- Header Banner Caption -->
-  <text x="25" y="24" font-family="ui-monospace, monospace" font-size="10" fill="#D8B46A" letter-spacing="1.5">
-    ARCHITECTURE // THALLIUM FINANCIAL TRANSACTION PIPELINE
-  </text>
+  <!-- Node 4: Ledger -->
+  <g transform="translate(625, 24)">
+    <rect width="125" height="42" rx="4" fill="#12141A" stroke="#22252C" stroke-width="1" />
+    <text x="14" y="19" class="node-title">IMMUTABLE LEDGER</text>
+    <text x="14" y="32" class="node-sub">Double-Entry Audit</text>
+  </g>
 </svg>

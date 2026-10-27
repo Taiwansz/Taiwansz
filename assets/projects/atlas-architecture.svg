@@ -1,63 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="100%" height="180" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 90" width="100%" height="90" fill="none">
   <defs>
     <style>
-      .arch-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 13px; fill: #F5F1E8; }
-      .arch-sub { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; fill: #8E929E; letter-spacing: 0.5px; }
-      .arch-flow { stroke: #D8B46A; stroke-width: 1.5; stroke-dasharray: 4 4; }
-      .box-bg { fill: #14161A; stroke: #292B30; stroke-width: 1.2; rx: 6px; }
-      .box-active { fill: #181B22; stroke: #D8B46A; stroke-width: 1.5; rx: 6px; }
+      .node-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; font-size: 11px; fill: #F5F1E8; letter-spacing: 0.5px; }
+      .node-sub { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 9px; fill: #8E929E; }
+      .core-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 11px; fill: #D8B46A; letter-spacing: 0.5px; }
+      .core-sub { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 9px; fill: #D8B46A; opacity: 0.85; }
+      .flow-line { stroke: #262933; stroke-width: 1; }
     </style>
-    <marker id="arrow-atlas" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#D8B46A" />
-    </marker>
   </defs>
 
-  <!-- Background -->
-  <rect width="800" height="180" rx="6" fill="#101114" stroke="#22252C" stroke-width="1" />
+  <!-- Canvas -->
+  <rect width="800" height="90" rx="6" fill="#0D0E12" />
+  <rect x="0.5" y="0.5" width="799" height="89" rx="5.5" fill="none" stroke="#1D2027" stroke-width="1" />
 
-  <!-- Stage 1: Intent & Specification -->
-  <rect x="25" y="35" width="160" height="110" class="box-bg" />
-  <rect x="37" y="50" width="136" height="4" rx="2" fill="#8E929E" />
-  <text x="37" y="74" class="arch-title">INTENT &amp; BLUEPRINT</text>
-  <text x="37" y="92" class="arch-sub">Blueprint-First Protocol</text>
-  <text x="37" y="108" class="arch-sub">Spec-Driven Development</text>
-  <text x="37" y="124" class="arch-sub">Developer Intent Contract</text>
+  <!-- Connecting Backbone Line -->
+  <line x1="55" y1="45" x2="745" y2="45" class="flow-line" />
 
-  <!-- Flow 1 -> 2 -->
-  <line x1="185" y1="90" x2="230" y2="90" class="arch-flow" marker-end="url(#arrow-atlas)" />
+  <!-- Node 1: Spec -->
+  <g transform="translate(55, 24)">
+    <rect width="135" height="42" rx="4" fill="#12141A" stroke="#22252C" stroke-width="1" />
+    <text x="14" y="19" class="node-title">SPEC &amp; BLUEPRINT</text>
+    <text x="14" y="32" class="node-sub">SDD Intent Contract</text>
+  </g>
 
-  <!-- Stage 2: Governance & Quality Gate -->
-  <rect x="235" y="35" width="160" height="110" class="box-bg" />
-  <rect x="247" y="50" width="136" height="4" rx="2" fill="#D8B46A" />
-  <text x="247" y="74" class="arch-title">GOVERNANCE GATE</text>
-  <text x="247" y="92" class="arch-sub">Constitutional Scoring</text>
-  <text x="247" y="108" class="arch-sub">Quality Drift Mitigation</text>
-  <text x="247" y="124" class="arch-sub">Continuous Engineering Eval</text>
+  <!-- Node 2: Governance -->
+  <g transform="translate(235, 24)">
+    <rect width="145" height="42" rx="4" fill="#12141A" stroke="#22252C" stroke-width="1" />
+    <text x="14" y="19" class="node-title">QUALITY GATE</text>
+    <text x="14" y="32" class="node-sub">Constitutional Scoring</text>
+  </g>
 
-  <!-- Flow 2 -> 3 -->
-  <line x1="395" y1="90" x2="435" y2="90" class="arch-flow" marker-end="url(#arrow-atlas)" />
+  <!-- Node 3: Persistent Memory (Accent) -->
+  <g transform="translate(425, 24)">
+    <rect width="155" height="42" rx="4" fill="#161820" stroke="#D8B46A" stroke-width="1" />
+    <text x="14" y="19" class="core-title">PERSISTENT MEMORY</text>
+    <text x="14" y="32" class="core-sub">Graphify &#183; Zero Amnesia</text>
+  </g>
 
-  <!-- Stage 3: Persistent Cognitive Memory -->
-  <rect x="440" y="35" width="160" height="110" class="box-active" />
-  <rect x="452" y="50" width="136" height="4" rx="2" fill="#D8B46A" />
-  <text x="452" y="74" class="arch-title">PERSISTENT MEMORY</text>
-  <text x="452" y="92" class="arch-sub">Architecture Records (ADR)</text>
-  <text x="452" y="108" class="arch-sub">Topological Code Graph</text>
-  <text x="452" y="124" class="arch-sub">Zero Institutional Amnesia</text>
-
-  <!-- Flow 3 -> 4 -->
-  <line x1="600" y1="90" x2="635" y2="90" class="arch-flow" marker-end="url(#arrow-atlas)" />
-
-  <!-- Stage 4: Multi-Agent Orchestration -->
-  <rect x="640" y="35" width="135" height="110" class="box-bg" />
-  <rect x="652" y="50" width="111" height="4" rx="2" fill="#8E929E" />
-  <text x="652" y="74" class="arch-title">EXECUTION ENGINE</text>
-  <text x="652" y="92" class="arch-sub">Multi-Agent Scheduler</text>
-  <text x="652" y="108" class="arch-sub">Nx Modular Packages</text>
-  <text x="652" y="124" class="arch-sub">TypeScript Runtime</text>
-
-  <!-- Header Banner Caption -->
-  <text x="25" y="24" font-family="ui-monospace, monospace" font-size="10" fill="#D8B46A" letter-spacing="1.5">
-    ARCHITECTURE // ATLAS MULTI-AGENT ENGINEERING OS
-  </text>
+  <!-- Node 4: Execution -->
+  <g transform="translate(625, 24)">
+    <rect width="130" height="42" rx="4" fill="#12141A" stroke="#22252C" stroke-width="1" />
+    <text x="14" y="19" class="node-title">MULTI-AGENT ENGINE</text>
+    <text x="14" y="32" class="node-sub">Scheduler Runtime</text>
+  </g>
 </svg>
