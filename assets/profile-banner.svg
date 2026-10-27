@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101114" />
+      <stop offset="50%" stop-color="#14161A" />
+      <stop offset="100%" stop-color="#0E0F12" />
+    </linearGradient>
+
+    <!-- Gold Accent Gradient -->
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5C785" />
+      <stop offset="50%" stop-color="#D8B46A" />
+      <stop offset="100%" stop-color="#B89347" />
+    </linearGradient>
+
+    <!-- Subtle Radial Glow -->
+    <radialGradient id="amber-glow" cx="80%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#D8B46A" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#101114" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="tech-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#22252C" stroke-width="0.75" stroke-opacity="0.6" />
+      <circle cx="0" cy="0" r="1" fill="#D8B46A" fill-opacity="0.3" />
+    </pattern>
+
+    <style>
+      .mono-text {
+        font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+      }
+      .display-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Plate -->
+  <rect width="900" height="240" rx="8" fill="url(#bg-grad)" />
+  <rect width="900" height="240" rx="8" fill="url(#amber-glow)" />
+  <rect width="900" height="240" rx="8" fill="url(#tech-grid)" opacity="0.8" />
+
+  <!-- Outer Hairline Border -->
+  <rect x="1" y="1" width="898" height="238" rx="7" fill="none" stroke="#292B30" stroke-width="1.5" />
+
+  <!-- Corner Brackets -->
+  <path d="M 16 32 L 16 16 L 32 16" fill="none" stroke="#D8B46A" stroke-width="2" />
+  <path d="M 884 32 L 884 16 L 868 16" fill="none" stroke="#D8B46A" stroke-width="2" />
+  <path d="M 16 208 L 16 224 L 32 224" fill="none" stroke="#D8B46A" stroke-width="2" />
+  <path d="M 884 208 L 884 224 L 868 224" fill="none" stroke="#D8B46A" stroke-width="2" />
+
+  <!-- Top System Telemetry Bar -->
+  <g class="mono-text" font-size="10" letter-spacing="1.5" fill="#8E929E">
+    <text x="40" y="42" fill="#D8B46A" font-weight="600">SYS_ID // TAIWANSZ</text>
+    <text x="210" y="42">LOC: 23°05'S 47°13'W</text>
+    <text x="370" y="42">NODE: UNIMAX_CS_08</text>
+    <circle cx="530" cy="39" r="3" fill="#D8B46A" />
+    <text x="540" y="42" fill="#D8B46A">CORE_ONLINE</text>
+  </g>
+
+  <!-- Dividing Line -->
+  <line x1="40" y1="54" x2="860" y2="54" stroke="#292B30" stroke-width="1" />
+
+  <!-- Main Hero Content -->
+  <!-- Kicker -->
+  <text x="40" y="86" class="mono-text" font-size="11" font-weight="600" fill="url(#gold-grad)" letter-spacing="3">AI ENGINEERING &amp; DISTRIBUTED ARCHITECTURE</text>
+
+  <!-- Name -->
+  <text x="40" y="126" class="display-text" font-size="32" font-weight="800" fill="#F5F1E8" letter-spacing="1.2">MATHEUS SOUSA DOS SANTOS</text>
+
+  <!-- Tagline / Value Proposition -->
+  <text x="40" y="158" class="display-text" font-size="15" font-weight="400" fill="#C5C9D4">
+    Building autonomous agent systems, high-integrity financial backends, and token-optimized architectures.
+  </text>
+
+  <!-- Secondary Capability Tags -->
+  <g class="mono-text" font-size="11" fill="#8E929E">
+    <!-- Tag 1 -->
+    <rect x="40" y="180" width="130" height="24" rx="4" fill="#181A20" stroke="#292B30" stroke-width="1" />
+    <text x="50" y="196" fill="#D8B46A">●</text>
+    <text x="64" y="196" fill="#C5C9D4">LLM Runtimes</text>
+
+    <!-- Tag 2 -->
+    <rect x="180" y="180" width="140" height="24" rx="4" fill="#181A20" stroke="#292B30" stroke-width="1" />
+    <text x="190" y="196" fill="#D8B46A">●</text>
+    <text x="204" y="196" fill="#C5C9D4">Ledger Engines</text>
+
+    <!-- Tag 3 -->
+    <rect x="330" y="180" width="140" height="24" rx="4" fill="#181A20" stroke="#292B30" stroke-width="1" />
+    <text x="340" y="196" fill="#D8B46A">●</text>
+    <text x="354" y="196" fill="#C5C9D4">Full-Stack Web</text>
+  </g>
+
+  <!-- Right Geometric Engine Orbital Emblem -->
+  <g transform="translate(750, 140)">
+    <!-- Outer Orbit Ring -->
+    <circle cx="0" cy="0" r="64" fill="none" stroke="#292B30" stroke-width="1" stroke-dasharray="4 6" />
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#3A3E47" stroke-width="1.2" />
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#D8B46A" stroke-width="1.5" stroke-opacity="0.8" />
+    
+    <!-- Central Core Node -->
+    <circle cx="0" cy="0" r="8" fill="url(#gold-grad)" />
+    
+    <!-- Orbital Nodes -->
+    <circle cx="45" cy="-22" r="4" fill="#F5F1E8" />
+    <line x1="0" y1="0" x2="45" y2="-22" stroke="#D8B46A" stroke-width="1" stroke-opacity="0.6" />
+
+    <circle cx="-35" cy="35" r="3.5" fill="#D8B46A" />
+    <line x1="0" y1="0" x2="-35" y2="35" stroke="#D8B46A" stroke-width="1" stroke-opacity="0.5" />
+
+    <circle cx="-42" cy="-27" r="3" fill="#8E929E" />
+    <line x1="0" y1="0" x2="-42" y2="-27" stroke="#3A3E47" stroke-width="1" />
+
+    <circle cx="20" cy="46" r="3" fill="#8E929E" />
+    <line x1="0" y1="0" x2="20" y2="46" stroke="#3A3E47" stroke-width="1" />
+
+    <!-- Crosshairs -->
+    <line x1="-74" y1="0" x2="-58" y2="0" stroke="#D8B46A" stroke-width="1.5" />
+    <line x1="58" y1="0" x2="74" y2="0" stroke="#D8B46A" stroke-width="1.5" />
+    <line x1="0" y1="-74" x2="0" y2="-58" stroke="#D8B46A" stroke-width="1.5" />
+    <line x1="0" y1="58" x2="0" y2="74" stroke="#D8B46A" stroke-width="1.5" />
+  </g>
+</svg>
